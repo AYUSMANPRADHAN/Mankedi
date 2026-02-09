@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 120px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: white;
+    color: #ff4d6d;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.letter {
+    margin: 80px;
+    font-size: 18px;
+  }
